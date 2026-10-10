@@ -1,0 +1,38 @@
+{
+  "meals": {
+    "data": {
+      "menu": [
+        {"productCode": "1001", "productName": "麦辣鸡腿堡", "priceFen": 1600},
+        {"productCode": "1002", "productName": "巨无霸", "priceFen": 2300},
+        {"productCode": "1003", "productName": "板烧鸡腿堡", "priceFen": 2700},
+        {"productCode": "2001", "productName": "玉米杯", "priceFen": 700},
+        {"productCode": "2002", "productName": "中薯条", "priceFen": 1200},
+        {"productCode": "3001", "productName": "中可乐", "priceFen": 800},
+        {"productCode": "3002", "productName": "热美式", "priceFen": 1100}
+      ]
+    }
+  },
+  "promotions": {
+    "data": [
+      {
+        "promotionId": "demo-ladder",
+        "promotionType": 31,
+        "ruleCategory": 40,
+        "products": {"type": 3},
+        "ruleDetail": {
+          "unit": "yuan",
+          "ladders": [
+            {"threshold": 300, "reduction": 60},
+            {"threshold": 480, "reduction": 120}
+          ]
+        }
+      }
+    ]
+  },
+  "assistance": {
+    "data": [
+      {"gmServiceCode": "PICKUP", "name": "门店自取", "priceFen": 0},
+      {"gmServiceCode": "ROOM", "name": "配送入室", "priceFen": 0}
+    ]
+  }
+}
